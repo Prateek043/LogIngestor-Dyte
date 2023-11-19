@@ -1,3 +1,63 @@
+# Log Ingestor Application
+
+This is a simple web application that displays a Logs API uses MongoDB and Mongoose to store and retrieve logs.
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Project Features](#project-features)
+- [Usage](#usage)
+
+## Prerequisites
+
+Before running this project, make sure you have the following installed:
+
+- Node.js: You can download and install it from [nodejs.org](https://nodejs.org/).
+
+## Getting Started
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Prateek043/LogIngestor-Dyte
+
+2. Navigate to the project directory:
+    ```bash
+    cd LogIngestor-Dyte
+3. Install the project dependencies:
+    ```bash
+    npm install
+
+
+## Usage
+
+### Start the development server:
+
+### Frontend
+```bash
+npm start
+
+Open your web browser and visit http://localhost:3000 to Create,View,Search the Logs.
+```
+### Backend
+```bash
+node server.js
+
+```
+## Features
+
+- Log Entry Creation: Easily create and store log entries with essential information.
+
+- Mongoose Schema: Utilizes a well-defined Mongoose schema for structured log data.
+
+- Timestamps: Automatically includes timestamps for log entries with a default value.
+
+- Error Handling: Provides error handling for saving log entries to the database.
+
+- MongoDB Integration: Stores log entries in a MongoDB database for scalable and efficient data management.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
